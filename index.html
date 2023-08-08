@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h2>Job Application Form</h2>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="full_name" placeholder="Your full name.." required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Your address.." required></textarea>
+
+            <label for="position">Position:</label>
+            <select id="position" name="position" required>
+                <option value="">--Select Position--</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="marketer">Marketer</option>
+            </select>
+
+
+            <div class="file-input">
+                <label for="resume">Upload Resume *</label>
+                <input type="file" id="resume" name="resume" class="file-input" accept=".pdf,.doc,.docx" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education and Work History</legend>
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" placeholder="Your education history.."></textarea>
+
+            <label for="experience">Work Experience:</label>
+            <textarea id="experience" name="experience" placeholder="Your work experience.."></textarea>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" placeholder="Your skills.."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>References</legend>
+            <label for="ref1_name">Reference 1 Name:</label>
+            <input type="text" id="ref1_name" name="ref1_name" placeholder="Reference 1 name..">
+
+            <label for="ref1_phone">Reference 1 Phone:</label>
+            <input type="tel" id="ref1_phone" name="ref1_phone" placeholder="Reference 1 phone number..">
+
+            <label for="ref1_email">Reference 1 Email:</label>
+            <input type="email" id="ref1_email" name="ref1_email" placeholder="Reference 1 email..">
+
+            <label for="ref2_name">Reference 2 Name:</label>
+            <input type="text" id="ref2_name" name="ref2_name" placeholder="Reference 2 name..">
+
+            <label for="ref2_phone">Reference 2 Phone:</label>
+            <input type="tel" id="ref2_phone" name="ref2_phone" placeholder="Reference 2 phone number..">
+
+            <label for="ref2_email">Reference 2 Email:</label>
+            <input type="email" id="ref2_email" name="ref2_email" placeholder="Reference 2 email..">
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

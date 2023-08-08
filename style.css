@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid rgb(239, 238, 238);
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    height: 40px;
+}
+
+fieldset {
+    border: 2px solid rgb(240, 239, 239);
+    margin-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.file-input {
+    position: relative;
+    overflow: hidden;
+}
+
+.file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.file-input label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #16bac6;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.file-input label:hover {
+    background-color: #14a7b1;
+}
+
+.file-input label:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease-out;
+}
+
+input[type="submit"] {
+    background-color: #16bac6;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #12acb7;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease-out;
+}
+
+@media (max-width: 480px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    input[type="submit"] {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
